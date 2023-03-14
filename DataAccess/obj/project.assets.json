@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\birpe\\RiderProjects\\BackendProject\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\birpe\\RiderProjects\\WebProject\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\birpe\\RiderProjects\\BackendProject\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\birpe\\RiderProjects\\WebProject\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\birpe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\birpe\\RiderProjects\\BackendProject\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\birpe\\RiderProjects\\WebProject\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\birpe\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vrk2c2Qj0wRvYabuIrH8+tztI5iaIVHbFLs/yT5nYMZUY6ak0iYGrO40dTbZSh/sfd+8LPybCUAfRw/vU3iGig==",
+  "dgSpecHash": "A15e9YAgxiZJBeVZYfAzRQNviD8bAirMkvzMwzffbsx6ZQhR/kxMPyPAayQDeHsqq/h4CEc+aR+QvC03GPvm5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\birpe\\RiderProjects\\BackendProject\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\birpe\\RiderProjects\\WebProject\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
