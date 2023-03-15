@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "Entities/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Entities.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Entities.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "Entities/1.0.0": {
-      "type": "project",
-      "path": "../Entities/Entities.csproj",
-      "msbuildProject": "../Entities/Entities.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "Entities >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\birpe\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\birpe\\RiderProjects\\WebProject\\DataAccess\\DataAccess.csproj",
-      "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\birpe\\RiderProjects\\WebProject\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\birpe\\RiderProjects\\WebProject\\ConsoleUI\\ConsoleUI.csproj",
+      "projectName": "ConsoleUI",
+      "projectPath": "C:\\Users\\birpe\\RiderProjects\\WebProject\\ConsoleUI\\ConsoleUI.csproj",
       "packagesPath": "C:\\Users\\birpe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\birpe\\RiderProjects\\WebProject\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\birpe\\RiderProjects\\WebProject\\ConsoleUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\birpe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,11 +33,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "C:\\Users\\birpe\\RiderProjects\\WebProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\birpe\\RiderProjects\\WebProject\\Entities\\Entities.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
