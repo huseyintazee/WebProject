@@ -7,11 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Concrete\EntityFramework" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\Entities\Entities.csproj" />
+      <Folder Include="Abstract" />
+      <Folder Include="Concrete" />
     </ItemGroup>
 
 </Project>
