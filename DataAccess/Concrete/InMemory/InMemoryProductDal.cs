@@ -12,11 +12,11 @@ public class InMemoryProductDal : IProductDal
     {
         _products = new List<Product>
         {
-            new Product {ProductId = 1, CategoryId = 1, ProductName = "Bardak", UnitPrice = 15, UnitInStocks = 15},
-            new Product {ProductId = 2, CategoryId = 2, ProductName = "Kamere", UnitPrice = 2000, UnitInStocks = 5},
-            new Product {ProductId = 3, CategoryId = 2, ProductName = "Telefon", UnitPrice = 7000, UnitInStocks = 3},
-            new Product {ProductId = 4, CategoryId = 2, ProductName = "Klavye", UnitPrice = 300, UnitInStocks = 100},
-            new Product {ProductId = 5, CategoryId = 2, ProductName = "Mouse", UnitPrice = 200, UnitInStocks = 100},
+            new Product {ProductId = 1, CategoryId = 1, ProductName = "Bardak", UnitPrice = 15, UnitsInStock = 15},
+            new Product {ProductId = 2, CategoryId = 2, ProductName = "Kamere", UnitPrice = 2000, UnitsInStock = 5},
+            new Product {ProductId = 3, CategoryId = 2, ProductName = "Telefon", UnitPrice = 7000, UnitsInStock = 3},
+            new Product {ProductId = 4, CategoryId = 2, ProductName = "Klavye", UnitPrice = 300, UnitsInStock = 100},
+            new Product {ProductId = 5, CategoryId = 2, ProductName = "Mouse", UnitPrice = 200, UnitsInStock = 100},
         };
     }
 
@@ -46,7 +46,7 @@ public class InMemoryProductDal : IProductDal
         productToUpdate.ProductName = product.ProductName;
         productToUpdate.CategoryId = product.CategoryId;
         productToUpdate.UnitPrice = product.UnitPrice;
-        productToUpdate.UnitInStocks = product.UnitInStocks;
+        productToUpdate.UnitsInStock = product.UnitsInStock;
     }
 
     public void Delete(Product product)
