@@ -28,4 +28,22 @@ public class ProductManager : IProductService
     {
         return _productDal.GetAll(p => p.UnitPrice >= min && p.UnitPrice <= max);
     }
+
+    public void Add(Product product)
+    {
+        _productDal.Add(product);
+        Console.WriteLine("Ürün eklendi" + product.ProductName);
+    }
+
+    public void Delete(Product product)
+    {
+        _productDal.Delete(product);
+        Console.WriteLine("Ürün silindi" + product.ProductName);
+    }
+
+    public void Update(Product product)
+    {
+        _productDal.Update(product);
+        Console.WriteLine("Ürün güncellendi" + product.ProductName);
+    }
 }
