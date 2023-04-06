@@ -15,3 +15,5 @@ C:\Users\birpe\RiderProjects\WebProject\Business\obj\Debug\net7.0\Business.dll
 C:\Users\birpe\RiderProjects\WebProject\Business\obj\Debug\net7.0\refint\Business.dll
 C:\Users\birpe\RiderProjects\WebProject\Business\obj\Debug\net7.0\Business.pdb
 C:\Users\birpe\RiderProjects\WebProject\Business\obj\Debug\net7.0\ref\Business.dll
+C:\Users\birpe\RiderProjects\WebProject\Business\bin\Debug\net7.0\Core.dll
+C:\Users\birpe\RiderProjects\WebProject\Business\bin\Debug\net7.0\Core.pdb
