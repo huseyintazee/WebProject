@@ -1,7 +1,7 @@
 ﻿using System.Linq.Expressions;
-using Entities.Abstract;
+using Core.Entities;
 
-namespace DataAccess.Abstract;
+namespace Core.DataAccess;
 
 //generic constraint
 public interface IEntityRepository<T> where T:class,IEntity,new()
