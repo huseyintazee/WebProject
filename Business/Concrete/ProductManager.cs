@@ -2,6 +2,7 @@
 using DataAccess.Abstract;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
+using Entities.DTOs;
 
 namespace Business.Concrete;
 
@@ -45,5 +46,10 @@ public class ProductManager : IProductService
     {
         _productDal.Update(product);
         Console.WriteLine("Ürün güncellendi" + product.ProductName);
+    }
+
+    public List<ProductDetailDto> GetProductDetails()
+    {
+        return _productDal.GetProductDetails();
     }
 }

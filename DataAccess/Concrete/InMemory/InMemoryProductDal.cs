@@ -1,6 +1,7 @@
 ﻿using System.Linq.Expressions;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 
 namespace DataAccess.Concrete.InMemory;
 
@@ -53,6 +54,11 @@ public class InMemoryProductDal : IProductDal
     {
         Product productToDelete = _products.SingleOrDefault(s => s.ProductId == product.ProductId);
         _products.Remove(productToDelete);
+    }
+
+    public List<ProductDetailDto> GetProductDetails()
+    {
+        throw new NotImplementedException();
     }
 
     public List<Product> GetAllByCategory(int categoryId)
