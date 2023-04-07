@@ -1,4 +1,5 @@
 ﻿using Entities.Concrete;
+using Entities.DTOs;
 
 namespace Business.Abstract;
 
@@ -10,4 +11,5 @@ public interface IProductService
     void Add(Product product);
     void Delete(Product product);
     void Update(Product product);
+    List<ProductDetailDto> GetProductDetails();
 }
