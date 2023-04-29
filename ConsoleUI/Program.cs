@@ -19,17 +19,19 @@ class Program
     {
         CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
         foreach (var category in categoryManager.GetAll())
-        {
             Console.WriteLine(category.CategoryId + " : " + category.CategoryName);
-        }
     }
 
     private static void ProductTest()
     {
         ProductManager productManager = new ProductManager(new EfProductDal());
-        foreach (var product in productManager.GetProductDetails())
+        var result = productManager.GetProductDetails();
+        if (result.IsSuccess)
         {
-            Console.WriteLine("Ürünün adı : " + product.ProductName + " " + " Kategori adı : " + product.CategoryName);
+            foreach (var product in result.Data)
+                Console.WriteLine("Ürünün adı : " + product.ProductName + " " + " Kategori adı : " + product.CategoryName);
         }
+        else
+            Console.WriteLine(result.Message);
     }
 }
