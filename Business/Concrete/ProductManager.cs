@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.Constants;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using DataAccess.Concrete.InMemory;
@@ -40,23 +41,23 @@ public class ProductManager : IProductService
     {
         if (product.ProductName.Length < 2)
         {
-            return new ErrorResult("Ürün ismi en az 2 karakterli olmalıdır.");
+            return new ErrorResult(Messages.ProductNameInvalid);
         }
 
         _productDal.Add(product);
-        return new SuccessResult("Ürün Eklendi.");
+        return new SuccessResult(Messages.ProductAdded);
     }
 
     public IResult Delete(Product product)
     {
         _productDal.Delete(product);
-        return new SuccessResult("Ürün Silindi.");
+        return new SuccessResult(Messages.ProductDeleted);
     }
 
     public IResult Update(Product product)
     {
         _productDal.Update(product);
-        return new SuccessResult("Ürün Güncellendi.");
+        return new SuccessResult(Messages.ProductUpdated);
     }
 
     public List<ProductDetailDto> GetProductDetails()
