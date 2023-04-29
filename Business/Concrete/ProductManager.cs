@@ -38,20 +38,25 @@ public class ProductManager : IProductService
 
     public IResult Add(Product product)
     {
+        if (product.ProductName.Length < 2)
+        {
+            return new ErrorResult("Ürün ismi en az 2 karakterli olmalıdır.");
+        }
+
         _productDal.Add(product);
-        return new Result(true, "Ürün Eklendi.");
+        return new SuccessResult("Ürün Eklendi.");
     }
 
     public IResult Delete(Product product)
     {
         _productDal.Delete(product);
-        return new Result(true, "Ürün Silindi.");
+        return new SuccessResult("Ürün Silindi.");
     }
 
     public IResult Update(Product product)
     {
         _productDal.Update(product);
-        return new Result(true, "Ürün Güncellendi.");
+        return new SuccessResult("Ürün Güncellendi.");
     }
 
     public List<ProductDetailDto> GetProductDetails()
