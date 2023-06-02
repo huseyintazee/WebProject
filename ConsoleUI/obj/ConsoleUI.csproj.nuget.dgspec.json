@@ -54,6 +54,10 @@
             "Autofac.Extras.DynamicProxy": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
             }
           },
           "imports": [

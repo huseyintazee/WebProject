@@ -69,3 +69,10 @@ C:\Users\birpe\RiderProjects\WebProject\ConsoleUI\bin\Debug\net7.0\runtimes\win\
 C:\Users\birpe\RiderProjects\WebProject\ConsoleUI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\birpe\RiderProjects\WebProject\ConsoleUI\bin\Debug\net7.0\Core.dll
 C:\Users\birpe\RiderProjects\WebProject\ConsoleUI\bin\Debug\net7.0\Core.pdb
+C:\Users\birpe\RiderProjects\WebProject\ConsoleUI\bin\Debug\net7.0\Autofac.dll
+C:\Users\birpe\RiderProjects\WebProject\ConsoleUI\bin\Debug\net7.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\birpe\RiderProjects\WebProject\ConsoleUI\bin\Debug\net7.0\Castle.Core.dll
+C:\Users\birpe\RiderProjects\WebProject\ConsoleUI\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\birpe\RiderProjects\WebProject\ConsoleUI\bin\Debug\net7.0\System.Diagnostics.EventLog.dll
+C:\Users\birpe\RiderProjects\WebProject\ConsoleUI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\birpe\RiderProjects\WebProject\ConsoleUI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
