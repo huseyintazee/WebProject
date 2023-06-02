@@ -90,3 +90,4 @@ C:\Users\birpe\RiderProjects\WebProject\WebAPI\bin\Debug\net7.0\Autofac.dll
 C:\Users\birpe\RiderProjects\WebProject\WebAPI\bin\Debug\net7.0\Autofac.Extras.DynamicProxy.dll
 C:\Users\birpe\RiderProjects\WebProject\WebAPI\bin\Debug\net7.0\Castle.Core.dll
 C:\Users\birpe\RiderProjects\WebProject\WebAPI\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\birpe\RiderProjects\WebProject\WebAPI\bin\Debug\net7.0\FluentValidation.dll

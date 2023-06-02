@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xLESr/Oww5L8Ms/kyo8Xli9MYclpnldScbiJXXGsR4t8Gh4Rbbxfp4lidpheHqPiRw3uTNfVGRMt6HJ1/z0ALw==",
+  "dgSpecHash": "RRZ9j92QmcHAk1TwP//CTubAtNhTULGA6qYr6jLAsm3AAQIPsGQl8I00ckxfla5jvTkcWcMM5PMrNqpy8jacrg==",
   "success": true,
   "projectFilePath": "C:\\Users\\birpe\\RiderProjects\\WebProject\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\birpe\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\birpe\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.0\\microsoft.data.sqlclient.5.1.0.nupkg.sha512",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wwQBU16XwkoPVoJtj0L5H0rSbwe7VEBwqaZSod7FSJr/+bpOAWZdzJnPqhdy82rAwIGOG5LfMvPcK6l4vN6Xfg==",
+  "dgSpecHash": "47thOuyCYXwNDx5lyNMVlPJK5rC8pgEYDISHKKCPq+viiE6q43GE5o3he3R17ttAiJw0FJmivBk7348EhvbPWQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\birpe\\RiderProjects\\WebProject\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\birpe\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\birpe\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.1\\microsoft.aspnetcore.openapi.7.0.1.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
