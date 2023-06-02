@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "6w+eysUufV3yZE90E3UfzYIzTu4Onwuf+GQKgM6k9PWLIxdNcG6BxlpKesxiQtu+2vYGwZnlxiEVya1mB0jIwQ==",
+  "dgSpecHash": "alK5UNUuLUDtVxil4z8fCBIxH777wFLK6hSK+mo3Z1VQdrdC/wjAMR2FvJfHLb5Xw9aNlXl61pK9BOkn2lsTJw==",
   "success": true,
   "projectFilePath": "C:\\Users\\birpe\\RiderProjects\\WebProject\\Business\\Business.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\birpe\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
+    "C:\\Users\\birpe\\.nuget\\packages\\autofac.extras.dynamicproxy\\7.0.0\\autofac.extras.dynamicproxy.7.0.0.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\birpe\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.0\\microsoft.data.sqlclient.5.1.0.nupkg.sha512",
@@ -38,6 +41,7 @@
     "C:\\Users\\birpe\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\birpe\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\system.formats.asn1\\5.0.0\\system.formats.asn1.5.0.0.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.24.0\\system.identitymodel.tokens.jwt.6.24.0.nupkg.sha512",
