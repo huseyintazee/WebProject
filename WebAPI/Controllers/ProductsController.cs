@@ -14,6 +14,7 @@ public class ProductsController : ControllerBase
      * Loosely coupled
      * naming convention
      * IoC Container -- Inversion of Control
+     * Cross Cutting Concerns => (Log,Cache,Transaction,Validation,Authorization,vs...)
      */
     private IProductService _productService;
 
