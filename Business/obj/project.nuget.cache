@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yyTFA49s29nvMqAndxf9qEdjLirpdyj7DGU7UK++r2g6KwurdlfA3Tq2Lz0eh+bZu8inuE9pVDOyIbL4S4AGqQ==",
+  "dgSpecHash": "Vm/Yq58450adxW0ZOiu54ashQ80oriZFBjg81w/eTxFpRctcfwbACnyvO25WYQsrx/oH8R4J4GCIWHBPGwzSFQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\birpe\\RiderProjects\\WebProject\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\birpe\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
+    "C:\\Users\\birpe\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\autofac.extras.dynamicproxy\\7.0.0\\autofac.extras.dynamicproxy.7.0.0.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\birpe\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
