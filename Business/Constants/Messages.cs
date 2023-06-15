@@ -10,4 +10,7 @@ public static class Messages
     public static string ProductUpdated = "Ürün güncellendi";
     public static string MaintenanceTime = "Bakım zamanı.";
     public static string ProductsListed = "Ürünler Listelendi";
+    public static string ProductCountOfCategoryError = "Bir kategoride en fazla 10 ürün olabilir.";
+    public static string ProductNameAlreadyExists = "Bu isimde bir ürün zaten var.";
+    public static string CategoryLimitExceded = "Kategori sayısı 15'ten fazla olduğu için ürün ekliyemezsiniz.";
 }
